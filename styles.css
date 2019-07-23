@@ -67,3 +67,28 @@ h1, h3{
   text-align: center;
 }
 
+@media (max-width: 600px){
+  #navigation{
+    flex-direction: column;
+  }
+  #users{
+    flex-direction: column;
+  }
+  #users div{
+    width: 100%;
+  }
+  #container{
+    flex-direction: column;
+    width: 100%
+  }
+  #create-user{
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+  }
+  #form{
+    flex-direction: column;
+    width:100%;
+  }
+
+}
