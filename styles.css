@@ -46,6 +46,13 @@ h1, h3{
   margin: 0.5rem;
 }
 
+
+#save {
+  background-color: dodgerBlue;
+  color: white;
+}
+
+
 #users {
   display: flex;
   align-items: space-around;
@@ -59,3 +66,4 @@ h1, h3{
   border-radius: 25px;
   text-align: center;
 }
+
