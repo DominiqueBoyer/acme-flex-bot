@@ -1,5 +1,19 @@
-div >div {
+#navigation {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: dodgerBlue;
+  color: white;
+  font-family: verdana;
+  align-items: center;
 
 }
 
+#navigation div {
+flex-grow: 1;
+padding: 1rem;
+}
+
+#homenav {
+  font-size: 1.5rem;
+}
